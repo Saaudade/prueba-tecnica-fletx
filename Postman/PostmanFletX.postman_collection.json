@@ -1,0 +1,179 @@
+{
+	"info": {
+		"_postman_id": "1d79ee52-59cb-40ab-8d08-e971a4c8dbca",
+		"name": "Prueba Margarita",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"fecha\": \"April 03\",\n    \"categoria\": \"Noticia\",\n    \"texto\": \"Día Mundial de concienciación sobre el Autismo\",\n    \"imagen\": \"Autismo.jpg\",\n    \"estado\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/efemeride",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"efemeride"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/efemerides",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"efemerides"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getByWord",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/efemerideByWord/word/:word",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"efemerideByWord",
+						"word",
+						":word"
+					],
+					"variable": [
+						{
+							"key": "word",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getByDate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/efemerideByDate/fecha/:fecha",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"efemerideByDate",
+						"fecha",
+						":fecha"
+					],
+					"variable": [
+						{
+							"key": "fecha",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"fecha\": \"09-19\",\n    \"categoria\": \"Noticia\",\n    \"texto\": \"Día Mundial de concienciación sobre el Autismo\",\n    \"imagen\": \"Autismo.png\",\n    \"estado\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/efemerides/fecha/:fecha",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"efemerides",
+						"fecha",
+						":fecha"
+					],
+					"variable": [
+						{
+							"key": "fecha",
+							"value": "23-21"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/efemerides/fecha/:fecha",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"efemerides",
+						"fecha",
+						":fecha"
+					],
+					"variable": [
+						{
+							"key": "fecha",
+							"value": "04-02"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
