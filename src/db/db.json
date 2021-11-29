@@ -1,0 +1,39 @@
+[
+    
+    {
+        
+        "fecha": "04-02", 
+        "categoria": "Noticia",
+        "texto": "Día Mundial de concienciación sobre el Autismo",
+        "imagen": "Autismo.jpg",
+        "estado": true
+    },
+    {
+        "fecha": "02-21",
+        "categoria": "Noticia",
+        "texto": "Día Internacional de la Lengua Materna y Día Nacional de las Lenguas Nativas",
+        "imagen" : "LenguasNativas.jpg",
+        "estado": true
+    },
+    {
+        "fecha": "03-21",
+        "categoria": "Noticia",
+        "texto": "Día Internacional de la Eliminación de la Discriminación Racial",
+        "imagen": "NoDiscriminación.jpg",
+        "estado": true
+    },
+    {
+        "fecha": "04-08",
+        "categoria": "Noticia",
+        "texto": "Día Internacional del Pueblo Rrom o Gitano",
+        "imagen": "Rrom-Gitano.jpg",
+        "estado": true
+    },
+    {
+        "fecha": "05-01",
+        "categoria": "Trabajo", 
+        "texto": "Día Internacional de los Trabajadores",
+        "imagen": "Trabajadores.jpg",
+        "estado": true
+    }
+]
