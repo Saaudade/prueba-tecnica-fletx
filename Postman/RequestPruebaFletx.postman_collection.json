@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "1d79ee52-59cb-40ab-8d08-e971a4c8dbca",
-		"name": "Prueba Margarita",
+		"name": "Request Prueba Fletx",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -75,7 +75,7 @@
 					"variable": [
 						{
 							"key": "word",
-							"value": null
+							"value": "la"
 						}
 					]
 				}
