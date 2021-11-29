@@ -6,4 +6,4 @@ La solución fue construida por Christian Alberto Tamayo Robayo.
 
 Comando para ejecutar la aplicación: npm start
 
-NOTA: No olvides instalar los modulos de node con el comando: npm i || npm install
+NOTA: No olvides instalar los modulos de node con el comando: npm i o npm install
